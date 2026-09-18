@@ -5,6 +5,7 @@
     "name": "HydroLink Beta",
     "description": "HydroLink是让手表和手机、电脑真正连起来的软件：手表抬腕就能看电脑/手机的状态、控制音乐、锁屏、跑你自己预设的命令——还能装插件*，给手表加新功能。\n\n手表上能做什么\n看状态：电脑/手机的 CPU、内存占用、温度手表上一眼可见\n控音乐：上一首/下一首/播放暂停\n一键锁屏：手表上点一下，电脑/手机就能立刻锁屏\n快速命令：在桌面/手机里预先配好命令（关机、静音、启动某个程序、跑脚本……），手表上直接点\n*桌搭组件：把时间和音乐做成组件常驻表盘（示例插件：DeskBuddy）\n*装插件加功能：电脑装一个 .hpk，手表HydroApp启动器里就多一个 App 或组件（示例插件：DeskBuddy）\n\n*插件使用WASM/JS开发，支持WebUI。HydroKit文档稍后放出，目前仅有示例插件。",
     "preview": [
+      "media/Group 9 (2).png",
       "media/RW5-2026-09-13-09-32-03.png",
       "media/S4-1-2026-09-13-09-33-53.png",
       "media/9Pro-2026-09-13-09-37-13.png"
@@ -34,52 +35,112 @@
     "xmrw5": {
       "version": "1.0.0",
       "file_name": "downloads/com.hydro.link.release.1.0.0.rpk",
-      "versionCode": 1
+      "versionCode": 1,
+      "updatelogs": [
+        {
+          "version": "1.0.0",
+          "content": "修复环10P等设备崩溃的问题"
+        }
+      ]
     },
     "xmrw5xring": {
       "version": "1.0.0",
       "file_name": "downloads/com.hydro.link.release.1.0.0.rpk",
-      "versionCode": 1
+      "versionCode": 1,
+      "updatelogs": [
+        {
+          "version": "1.0.0",
+          "content": "修复环10P等设备崩溃的问题"
+        }
+      ]
     },
     "xmrw6": {
       "version": "1.0.0",
       "file_name": "downloads/com.hydro.link.release.1.0.0.rpk",
-      "versionCode": 1
+      "versionCode": 1,
+      "updatelogs": [
+        {
+          "version": "1.0.0",
+          "content": "修复环10P等设备崩溃的问题"
+        }
+      ]
     },
     "xmb10p": {
       "version": "1.0.0",
       "file_name": "downloads/com.hydro.link.release.1.0.0.rpk",
-      "versionCode": 1
+      "versionCode": 1,
+      "updatelogs": [
+        {
+          "version": "1.0.0",
+          "content": "修复环10P等设备崩溃的问题"
+        }
+      ]
     },
     "xmb9p": {
       "version": "1.0.0",
       "file_name": "downloads/com.hydro.link.release.1.0.0.rpk",
-      "versionCode": 1
+      "versionCode": 1,
+      "updatelogs": [
+        {
+          "version": "1.0.0",
+          "content": "修复环10P等设备崩溃的问题"
+        }
+      ]
     },
     "xmws3": {
       "version": "1.0.0",
       "file_name": "downloads/com.hydro.link.release.1.0.0.rpk",
-      "versionCode": 1
+      "versionCode": 1,
+      "updatelogs": [
+        {
+          "version": "1.0.0",
+          "content": "修复环10P等设备崩溃的问题"
+        }
+      ]
     },
     "xmws4xring": {
       "version": "1.0.0",
       "file_name": "downloads/com.hydro.link.release.1.0.0.rpk",
-      "versionCode": 1
+      "versionCode": 1,
+      "updatelogs": [
+        {
+          "version": "1.0.0",
+          "content": "修复环10P等设备崩溃的问题"
+        }
+      ]
     },
     "xmws441": {
       "version": "1.0.0",
       "file_name": "downloads/com.hydro.link.release.1.0.0.rpk",
-      "versionCode": 1
+      "versionCode": 1,
+      "updatelogs": [
+        {
+          "version": "1.0.0",
+          "content": "修复环10P等设备崩溃的问题"
+        }
+      ]
     },
     "xmws4": {
       "version": "1.0.0",
       "file_name": "downloads/com.hydro.link.release.1.0.0.rpk",
-      "versionCode": 1
+      "versionCode": 1,
+      "updatelogs": [
+        {
+          "version": "1.0.0",
+          "content": "修复环10P等设备崩溃的问题"
+        }
+      ]
     },
     "xmws5": {
       "version": "1.0.0",
       "file_name": "downloads/com.hydro.link.release.1.0.0.rpk",
-      "versionCode": 1
+      "versionCode": 1,
+      "updatelogs": [
+        {
+          "version": "1.0.0",
+          "content": "修复环10P等设备崩溃的问题"
+        }
+      ]
     }
   },
   "ext": {}
