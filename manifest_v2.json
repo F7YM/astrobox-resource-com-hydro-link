@@ -33,112 +33,152 @@
   ],
   "downloads": {
     "xmrw5": {
-      "version": "1.0.0",
-      "file_name": "downloads/com.hydro.link.release.1.0.0.rpk",
-      "versionCode": 1,
+      "version": "1.1.0",
+      "file_name": "downloads/com.hydro.link.release.1.1.0.rpk",
+      "versionCode": 2,
       "updatelogs": [
         {
           "version": "1.0.0",
           "content": "修复环10P等设备崩溃的问题"
+        },
+        {
+          "version": "1.1.0",
+          "content": "1. 优化操作体验\n2. 更新 HydroKit\n3. 优化安卓端 UI\n4. 安卓端支持 root 权限执行命令\n5. 安卓端更换图标\n6. 安卓端支持 HydroKit"
         }
       ]
     },
     "xmrw5xring": {
-      "version": "1.0.0",
-      "file_name": "downloads/com.hydro.link.release.1.0.0.rpk",
-      "versionCode": 1,
+      "version": "1.1.0",
+      "file_name": "downloads/com.hydro.link.release.1.1.0.rpk",
+      "versionCode": 2,
       "updatelogs": [
         {
           "version": "1.0.0",
           "content": "修复环10P等设备崩溃的问题"
+        },
+        {
+          "version": "1.1.0",
+          "content": "1. 优化操作体验\n2. 更新 HydroKit\n3. 优化安卓端 UI\n4. 安卓端支持 root 权限执行命令\n5. 安卓端更换图标\n6. 安卓端支持 HydroKit"
         }
       ]
     },
     "xmrw6": {
-      "version": "1.0.0",
-      "file_name": "downloads/com.hydro.link.release.1.0.0.rpk",
-      "versionCode": 1,
+      "version": "1.1.0",
+      "file_name": "downloads/com.hydro.link.release.1.1.0.rpk",
+      "versionCode": 2,
       "updatelogs": [
         {
           "version": "1.0.0",
           "content": "修复环10P等设备崩溃的问题"
+        },
+        {
+          "version": "1.1.0",
+          "content": "1. 优化操作体验\n2. 更新 HydroKit\n3. 优化安卓端 UI\n4. 安卓端支持 root 权限执行命令\n5. 安卓端更换图标\n6. 安卓端支持 HydroKit"
         }
       ]
     },
     "xmb10p": {
-      "version": "1.0.0",
-      "file_name": "downloads/com.hydro.link.release.1.0.0.rpk",
-      "versionCode": 1,
+      "version": "1.1.0",
+      "file_name": "downloads/com.hydro.link.release.1.1.0.rpk",
+      "versionCode": 2,
       "updatelogs": [
         {
           "version": "1.0.0",
           "content": "修复环10P等设备崩溃的问题"
+        },
+        {
+          "version": "1.1.0",
+          "content": "1. 优化操作体验\n2. 更新 HydroKit\n3. 优化安卓端 UI\n4. 安卓端支持 root 权限执行命令\n5. 安卓端更换图标\n6. 安卓端支持 HydroKit"
         }
       ]
     },
     "xmb9p": {
-      "version": "1.0.0",
-      "file_name": "downloads/com.hydro.link.release.1.0.0.rpk",
-      "versionCode": 1,
+      "version": "1.1.0",
+      "file_name": "downloads/com.hydro.link.release.1.1.0.rpk",
+      "versionCode": 2,
       "updatelogs": [
         {
           "version": "1.0.0",
           "content": "修复环10P等设备崩溃的问题"
+        },
+        {
+          "version": "1.1.0",
+          "content": "1. 优化操作体验\n2. 更新 HydroKit\n3. 优化安卓端 UI\n4. 安卓端支持 root 权限执行命令\n5. 安卓端更换图标\n6. 安卓端支持 HydroKit"
         }
       ]
     },
     "xmws3": {
-      "version": "1.0.0",
-      "file_name": "downloads/com.hydro.link.release.1.0.0.rpk",
-      "versionCode": 1,
+      "version": "1.1.0",
+      "file_name": "downloads/com.hydro.link.release.1.1.0.rpk",
+      "versionCode": 2,
       "updatelogs": [
         {
           "version": "1.0.0",
           "content": "修复环10P等设备崩溃的问题"
+        },
+        {
+          "version": "1.1.0",
+          "content": "1. 优化操作体验\n2. 更新 HydroKit\n3. 优化安卓端 UI\n4. 安卓端支持 root 权限执行命令\n5. 安卓端更换图标\n6. 安卓端支持 HydroKit"
         }
       ]
     },
     "xmws4xring": {
-      "version": "1.0.0",
-      "file_name": "downloads/com.hydro.link.release.1.0.0.rpk",
-      "versionCode": 1,
+      "version": "1.1.0",
+      "file_name": "downloads/com.hydro.link.release.1.1.0.rpk",
+      "versionCode": 2,
       "updatelogs": [
         {
           "version": "1.0.0",
           "content": "修复环10P等设备崩溃的问题"
+        },
+        {
+          "version": "1.1.0",
+          "content": "1. 优化操作体验\n2. 更新 HydroKit\n3. 优化安卓端 UI\n4. 安卓端支持 root 权限执行命令\n5. 安卓端更换图标\n6. 安卓端支持 HydroKit"
         }
       ]
     },
     "xmws441": {
-      "version": "1.0.0",
-      "file_name": "downloads/com.hydro.link.release.1.0.0.rpk",
-      "versionCode": 1,
+      "version": "1.1.0",
+      "file_name": "downloads/com.hydro.link.release.1.1.0.rpk",
+      "versionCode": 2,
       "updatelogs": [
         {
           "version": "1.0.0",
           "content": "修复环10P等设备崩溃的问题"
+        },
+        {
+          "version": "1.1.0",
+          "content": "1. 优化操作体验\n2. 更新 HydroKit\n3. 优化安卓端 UI\n4. 安卓端支持 root 权限执行命令\n5. 安卓端更换图标\n6. 安卓端支持 HydroKit"
         }
       ]
     },
     "xmws4": {
-      "version": "1.0.0",
-      "file_name": "downloads/com.hydro.link.release.1.0.0.rpk",
-      "versionCode": 1,
+      "version": "1.1.0",
+      "file_name": "downloads/com.hydro.link.release.1.1.0.rpk",
+      "versionCode": 2,
       "updatelogs": [
         {
           "version": "1.0.0",
           "content": "修复环10P等设备崩溃的问题"
+        },
+        {
+          "version": "1.1.0",
+          "content": "1. 优化操作体验\n2. 更新 HydroKit\n3. 优化安卓端 UI\n4. 安卓端支持 root 权限执行命令\n5. 安卓端更换图标\n6. 安卓端支持 HydroKit"
         }
       ]
     },
     "xmws5": {
-      "version": "1.0.0",
-      "file_name": "downloads/com.hydro.link.release.1.0.0.rpk",
-      "versionCode": 1,
+      "version": "1.1.0",
+      "file_name": "downloads/com.hydro.link.release.1.1.0.rpk",
+      "versionCode": 2,
       "updatelogs": [
         {
           "version": "1.0.0",
           "content": "修复环10P等设备崩溃的问题"
+        },
+        {
+          "version": "1.1.0",
+          "content": "1. 优化操作体验\n2. 更新 HydroKit\n3. 优化安卓端 UI\n4. 安卓端支持 root 权限执行命令\n5. 安卓端更换图标\n6. 安卓端支持 HydroKit"
         }
       ]
     }
