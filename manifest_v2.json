@@ -2,16 +2,16 @@
   "item": {
     "id": "com.hydro.link",
     "restype": "quick_app",
-    "name": "HydroLink Beta",
+    "name": "HydroLink",
     "description": "HydroLink是让手表和手机、电脑真正连起来的软件：手表抬腕就能看电脑/手机的状态、控制音乐、锁屏、跑你自己预设的命令——还能装插件*，给手表加新功能。\n\n手表上能做什么\n看状态：电脑/手机的 CPU、内存占用、温度手表上一眼可见\n控音乐：上一首/下一首/播放暂停\n一键锁屏：手表上点一下，电脑/手机就能立刻锁屏\n快速命令：在桌面/手机里预先配好命令（关机、静音、启动某个程序、跑脚本……），手表上直接点\n*桌搭组件：把时间和音乐做成组件常驻表盘（示例插件：DeskBuddy）\n*装插件加功能：电脑装一个 .hpk，手表HydroApp启动器里就多一个 App 或组件（示例插件：DeskBuddy）\n\n*插件使用WASM/JS开发，支持WebUI。HydroKit文档稍后放出，目前仅有示例插件。",
     "preview": [
-      "media/Group 9 (2).png",
+      "media/Group 9 (6).png",
       "media/RW5-2026-09-13-09-32-03.png",
       "media/S4-1-2026-09-13-09-33-53.png",
       "media/9Pro-2026-09-13-09-37-13.png"
     ],
     "icon": "media/Group 3 (1).png",
-    "cover": "media/Group 9 (2).png",
+    "cover": "media/Group 9 (6).png",
     "author": [
       {
         "name": "float11",
@@ -21,21 +21,26 @@
   },
   "links": [
     {
-      "title": "QQ交流群",
-      "url": "https://qm.qq.com/q/9YMyKwoUOQ",
-      "icon": "Chat"
+      "title": "[必需] 服务端/同步器下载",
+      "url": "https://pan.quark.cn/s/c7c19a50b089",
+      "icon": "Download"
     },
     {
-      "title": "[必需] 服务端/同步器/插件下载",
-      "url": "https://1813024606.share.123pan.cn/123pan/MspuVv-wjK0A",
-      "icon": "Download"
+      "title": "QQ交流群",
+      "url": "https://qm.qq.com/q/9YMyKwoUOQ",
+      "icon": "ChatsTeardrop"
+    },
+    {
+      "title": "HydroKit 插件开发文档",
+      "url": "https://float11.gitbook.io/hydrokit",
+      "icon": "BookOpenText"
     }
   ],
   "downloads": {
     "xmrw5": {
-      "version": "1.1.0",
-      "file_name": "downloads/com.hydro.link.release.1.1.0.rpk",
-      "versionCode": 2,
+      "version": "1.2.2",
+      "file_name": "downloads/com.hydro.link.release.1.2.2.rpk",
+      "versionCode": 5,
       "updatelogs": [
         {
           "version": "1.0.0",
@@ -44,13 +49,17 @@
         {
           "version": "1.1.0",
           "content": "1. 优化操作体验\n2. 更新 HydroKit\n3. 优化安卓端 UI\n4. 安卓端支持 root 权限执行命令\n5. 安卓端更换图标\n6. 安卓端支持 HydroKit"
+        },
+        {
+          "version": "1.2.2",
+          "content": "手表端\n- 新增：分布式离线手写汉字输入法（互联通道调度手机算力）\n- 优化：圆表输入框加长并支持超长文本跟随光标\n- 优化：移除设备列表中互联设备卡片的点击缩放动画\n\n手机端\n- 新增：离线手写中枢服务与 ML Kit 汉字模型支持\n\n桌面端\n- 新增：单进程排他锁与本地唤醒机制\n- 修复：性能监控视图中物理内存一直显示 0MB 的缺陷\n- 新增：基于 JMX 的全平台（Win/Mac/Linux）内存精准统计\n\nHydroKit\n- 新增：tcp、ssh 接口"
         }
       ]
     },
     "xmrw5xring": {
-      "version": "1.1.0",
-      "file_name": "downloads/com.hydro.link.release.1.1.0.rpk",
-      "versionCode": 2,
+      "version": "1.2.2",
+      "file_name": "downloads/com.hydro.link.release.1.2.2.rpk",
+      "versionCode": 5,
       "updatelogs": [
         {
           "version": "1.0.0",
@@ -59,13 +68,17 @@
         {
           "version": "1.1.0",
           "content": "1. 优化操作体验\n2. 更新 HydroKit\n3. 优化安卓端 UI\n4. 安卓端支持 root 权限执行命令\n5. 安卓端更换图标\n6. 安卓端支持 HydroKit"
+        },
+        {
+          "version": "1.2.2",
+          "content": "手表端\n- 新增：分布式离线手写汉字输入法（互联通道调度手机算力）\n- 优化：圆表输入框加长并支持超长文本跟随光标\n- 优化：移除设备列表中互联设备卡片的点击缩放动画\n\n手机端\n- 新增：离线手写中枢服务与 ML Kit 汉字模型支持\n\n桌面端\n- 新增：单进程排他锁与本地唤醒机制\n- 修复：性能监控视图中物理内存一直显示 0MB 的缺陷\n- 新增：基于 JMX 的全平台（Win/Mac/Linux）内存精准统计\n\nHydroKit\n- 新增：tcp、ssh 接口"
         }
       ]
     },
     "xmrw6": {
-      "version": "1.1.0",
-      "file_name": "downloads/com.hydro.link.release.1.1.0.rpk",
-      "versionCode": 2,
+      "version": "1.2.2",
+      "file_name": "downloads/com.hydro.link.release.1.2.2.rpk",
+      "versionCode": 5,
       "updatelogs": [
         {
           "version": "1.0.0",
@@ -74,13 +87,17 @@
         {
           "version": "1.1.0",
           "content": "1. 优化操作体验\n2. 更新 HydroKit\n3. 优化安卓端 UI\n4. 安卓端支持 root 权限执行命令\n5. 安卓端更换图标\n6. 安卓端支持 HydroKit"
+        },
+        {
+          "version": "1.2.2",
+          "content": "手表端\n- 新增：分布式离线手写汉字输入法（互联通道调度手机算力）\n- 优化：圆表输入框加长并支持超长文本跟随光标\n- 优化：移除设备列表中互联设备卡片的点击缩放动画\n\n手机端\n- 新增：离线手写中枢服务与 ML Kit 汉字模型支持\n\n桌面端\n- 新增：单进程排他锁与本地唤醒机制\n- 修复：性能监控视图中物理内存一直显示 0MB 的缺陷\n- 新增：基于 JMX 的全平台（Win/Mac/Linux）内存精准统计\n\nHydroKit\n- 新增：tcp、ssh 接口"
         }
       ]
     },
     "xmb10p": {
-      "version": "1.1.0",
-      "file_name": "downloads/com.hydro.link.release.1.1.0.rpk",
-      "versionCode": 2,
+      "version": "1.2.2",
+      "file_name": "downloads/com.hydro.link.release.1.2.2.rpk",
+      "versionCode": 5,
       "updatelogs": [
         {
           "version": "1.0.0",
@@ -89,13 +106,17 @@
         {
           "version": "1.1.0",
           "content": "1. 优化操作体验\n2. 更新 HydroKit\n3. 优化安卓端 UI\n4. 安卓端支持 root 权限执行命令\n5. 安卓端更换图标\n6. 安卓端支持 HydroKit"
+        },
+        {
+          "version": "1.2.2",
+          "content": "手表端\n- 新增：分布式离线手写汉字输入法（互联通道调度手机算力）\n- 优化：圆表输入框加长并支持超长文本跟随光标\n- 优化：移除设备列表中互联设备卡片的点击缩放动画\n\n手机端\n- 新增：离线手写中枢服务与 ML Kit 汉字模型支持\n\n桌面端\n- 新增：单进程排他锁与本地唤醒机制\n- 修复：性能监控视图中物理内存一直显示 0MB 的缺陷\n- 新增：基于 JMX 的全平台（Win/Mac/Linux）内存精准统计\n\nHydroKit\n- 新增：tcp、ssh 接口"
         }
       ]
     },
     "xmb9p": {
-      "version": "1.1.0",
-      "file_name": "downloads/com.hydro.link.release.1.1.0.rpk",
-      "versionCode": 2,
+      "version": "1.2.2",
+      "file_name": "downloads/com.hydro.link.release.1.2.2.rpk",
+      "versionCode": 5,
       "updatelogs": [
         {
           "version": "1.0.0",
@@ -104,13 +125,17 @@
         {
           "version": "1.1.0",
           "content": "1. 优化操作体验\n2. 更新 HydroKit\n3. 优化安卓端 UI\n4. 安卓端支持 root 权限执行命令\n5. 安卓端更换图标\n6. 安卓端支持 HydroKit"
+        },
+        {
+          "version": "1.2.2",
+          "content": "手表端\n- 新增：分布式离线手写汉字输入法（互联通道调度手机算力）\n- 优化：圆表输入框加长并支持超长文本跟随光标\n- 优化：移除设备列表中互联设备卡片的点击缩放动画\n\n手机端\n- 新增：离线手写中枢服务与 ML Kit 汉字模型支持\n\n桌面端\n- 新增：单进程排他锁与本地唤醒机制\n- 修复：性能监控视图中物理内存一直显示 0MB 的缺陷\n- 新增：基于 JMX 的全平台（Win/Mac/Linux）内存精准统计\n\nHydroKit\n- 新增：tcp、ssh 接口"
         }
       ]
     },
     "xmws3": {
-      "version": "1.1.0",
-      "file_name": "downloads/com.hydro.link.release.1.1.0.rpk",
-      "versionCode": 2,
+      "version": "1.2.2",
+      "file_name": "downloads/com.hydro.link.release.1.2.2.rpk",
+      "versionCode": 5,
       "updatelogs": [
         {
           "version": "1.0.0",
@@ -119,13 +144,17 @@
         {
           "version": "1.1.0",
           "content": "1. 优化操作体验\n2. 更新 HydroKit\n3. 优化安卓端 UI\n4. 安卓端支持 root 权限执行命令\n5. 安卓端更换图标\n6. 安卓端支持 HydroKit"
+        },
+        {
+          "version": "1.2.2",
+          "content": "手表端\n- 新增：分布式离线手写汉字输入法（互联通道调度手机算力）\n- 优化：圆表输入框加长并支持超长文本跟随光标\n- 优化：移除设备列表中互联设备卡片的点击缩放动画\n\n手机端\n- 新增：离线手写中枢服务与 ML Kit 汉字模型支持\n\n桌面端\n- 新增：单进程排他锁与本地唤醒机制\n- 修复：性能监控视图中物理内存一直显示 0MB 的缺陷\n- 新增：基于 JMX 的全平台（Win/Mac/Linux）内存精准统计\n\nHydroKit\n- 新增：tcp、ssh 接口"
         }
       ]
     },
     "xmws4xring": {
-      "version": "1.1.0",
-      "file_name": "downloads/com.hydro.link.release.1.1.0.rpk",
-      "versionCode": 2,
+      "version": "1.2.2",
+      "file_name": "downloads/com.hydro.link.release.1.2.2.rpk",
+      "versionCode": 5,
       "updatelogs": [
         {
           "version": "1.0.0",
@@ -134,13 +163,17 @@
         {
           "version": "1.1.0",
           "content": "1. 优化操作体验\n2. 更新 HydroKit\n3. 优化安卓端 UI\n4. 安卓端支持 root 权限执行命令\n5. 安卓端更换图标\n6. 安卓端支持 HydroKit"
+        },
+        {
+          "version": "1.2.2",
+          "content": "手表端\n- 新增：分布式离线手写汉字输入法（互联通道调度手机算力）\n- 优化：圆表输入框加长并支持超长文本跟随光标\n- 优化：移除设备列表中互联设备卡片的点击缩放动画\n\n手机端\n- 新增：离线手写中枢服务与 ML Kit 汉字模型支持\n\n桌面端\n- 新增：单进程排他锁与本地唤醒机制\n- 修复：性能监控视图中物理内存一直显示 0MB 的缺陷\n- 新增：基于 JMX 的全平台（Win/Mac/Linux）内存精准统计\n\nHydroKit\n- 新增：tcp、ssh 接口"
         }
       ]
     },
     "xmws441": {
-      "version": "1.1.0",
-      "file_name": "downloads/com.hydro.link.release.1.1.0.rpk",
-      "versionCode": 2,
+      "version": "1.2.2",
+      "file_name": "downloads/com.hydro.link.release.1.2.2.rpk",
+      "versionCode": 5,
       "updatelogs": [
         {
           "version": "1.0.0",
@@ -149,13 +182,17 @@
         {
           "version": "1.1.0",
           "content": "1. 优化操作体验\n2. 更新 HydroKit\n3. 优化安卓端 UI\n4. 安卓端支持 root 权限执行命令\n5. 安卓端更换图标\n6. 安卓端支持 HydroKit"
+        },
+        {
+          "version": "1.2.2",
+          "content": "手表端\n- 新增：分布式离线手写汉字输入法（互联通道调度手机算力）\n- 优化：圆表输入框加长并支持超长文本跟随光标\n- 优化：移除设备列表中互联设备卡片的点击缩放动画\n\n手机端\n- 新增：离线手写中枢服务与 ML Kit 汉字模型支持\n\n桌面端\n- 新增：单进程排他锁与本地唤醒机制\n- 修复：性能监控视图中物理内存一直显示 0MB 的缺陷\n- 新增：基于 JMX 的全平台（Win/Mac/Linux）内存精准统计\n\nHydroKit\n- 新增：tcp、ssh 接口"
         }
       ]
     },
     "xmws4": {
-      "version": "1.1.0",
-      "file_name": "downloads/com.hydro.link.release.1.1.0.rpk",
-      "versionCode": 2,
+      "version": "1.2.2",
+      "file_name": "downloads/com.hydro.link.release.1.2.2.rpk",
+      "versionCode": 5,
       "updatelogs": [
         {
           "version": "1.0.0",
@@ -164,13 +201,17 @@
         {
           "version": "1.1.0",
           "content": "1. 优化操作体验\n2. 更新 HydroKit\n3. 优化安卓端 UI\n4. 安卓端支持 root 权限执行命令\n5. 安卓端更换图标\n6. 安卓端支持 HydroKit"
+        },
+        {
+          "version": "1.2.2",
+          "content": "手表端\n- 新增：分布式离线手写汉字输入法（互联通道调度手机算力）\n- 优化：圆表输入框加长并支持超长文本跟随光标\n- 优化：移除设备列表中互联设备卡片的点击缩放动画\n\n手机端\n- 新增：离线手写中枢服务与 ML Kit 汉字模型支持\n\n桌面端\n- 新增：单进程排他锁与本地唤醒机制\n- 修复：性能监控视图中物理内存一直显示 0MB 的缺陷\n- 新增：基于 JMX 的全平台（Win/Mac/Linux）内存精准统计\n\nHydroKit\n- 新增：tcp、ssh 接口"
         }
       ]
     },
     "xmws5": {
-      "version": "1.1.0",
-      "file_name": "downloads/com.hydro.link.release.1.1.0.rpk",
-      "versionCode": 2,
+      "version": "1.2.2",
+      "file_name": "downloads/com.hydro.link.release.1.2.2.rpk",
+      "versionCode": 5,
       "updatelogs": [
         {
           "version": "1.0.0",
@@ -179,6 +220,29 @@
         {
           "version": "1.1.0",
           "content": "1. 优化操作体验\n2. 更新 HydroKit\n3. 优化安卓端 UI\n4. 安卓端支持 root 权限执行命令\n5. 安卓端更换图标\n6. 安卓端支持 HydroKit"
+        },
+        {
+          "version": "1.2.2",
+          "content": "手表端\n- 新增：分布式离线手写汉字输入法（互联通道调度手机算力）\n- 优化：圆表输入框加长并支持超长文本跟随光标\n- 优化：移除设备列表中互联设备卡片的点击缩放动画\n\n手机端\n- 新增：离线手写中枢服务与 ML Kit 汉字模型支持\n\n桌面端\n- 新增：单进程排他锁与本地唤醒机制\n- 修复：性能监控视图中物理内存一直显示 0MB 的缺陷\n- 新增：基于 JMX 的全平台（Win/Mac/Linux）内存精准统计\n\nHydroKit\n- 新增：tcp、ssh 接口"
+        }
+      ]
+    },
+    "xmws541": {
+      "version": "1.2.2",
+      "file_name": "downloads/com.hydro.link.release.1.2.2.rpk",
+      "versionCode": 5,
+      "updatelogs": [
+        {
+          "version": "1.0.0",
+          "content": "修复环10P等设备崩溃的问题"
+        },
+        {
+          "version": "1.1.0",
+          "content": "1. 优化操作体验\n2. 更新 HydroKit\n3. 优化安卓端 UI\n4. 安卓端支持 root 权限执行命令\n5. 安卓端更换图标\n6. 安卓端支持 HydroKit"
+        },
+        {
+          "version": "1.2.2",
+          "content": "手表端\n- 新增：分布式离线手写汉字输入法（互联通道调度手机算力）\n- 优化：圆表输入框加长并支持超长文本跟随光标\n- 优化：移除设备列表中互联设备卡片的点击缩放动画\n\n手机端\n- 新增：离线手写中枢服务与 ML Kit 汉字模型支持\n\n桌面端\n- 新增：单进程排他锁与本地唤醒机制\n- 修复：性能监控视图中物理内存一直显示 0MB 的缺陷\n- 新增：基于 JMX 的全平台（Win/Mac/Linux）内存精准统计\n\nHydroKit\n- 新增：tcp、ssh 接口"
         }
       ]
     }
